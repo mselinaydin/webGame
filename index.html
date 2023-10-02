@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRO</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Game!</h1>
+    <p>Game introduction here</p>  
+    <br><br>
+    <button onclick="openIndexPage()">Start Game</button>
+
+    <script>
+        function openIndexPage() {
+            // Redirect to the second page
+            window.location.href = "intro.html";
+        }
+    </script>
+</body>
+</html>
